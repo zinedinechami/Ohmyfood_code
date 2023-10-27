@@ -62,4 +62,39 @@ nav i {
   color: white;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
+}
+
+.fonctionnement {
+  padding-top: 2em;
+}
+.fonctionnement h1 {
+  font-family: "Raleway", sans-serif;
+  padding-left: 1em;
+}
+.fonctionnement .fonctionnment__background {
+  background-color: white;
+  width: 400px;
+  height: 4em;
+  margin: 1em;
+  border-radius: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.fonctionnement .fontionnement__content p {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  margin-top: 0;
+}
+.fonctionnement .fontionnement__content i {
+  padding-right: 1em;
+}
+.fonctionnement .fontionnement__content .fonctionnement--number {
+  background-color: #9356DC;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

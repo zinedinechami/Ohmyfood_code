@@ -105,3 +105,56 @@ nav {
         }
 }
 
+// fonctionnement
+
+.fonctionnement {
+    padding-top: 2em;
+    h1 {
+        font-family: $texte_font;
+        padding-left: 1em;
+
+    }
+
+    .fonctionnment__background {
+        background-color: white;
+        width: 400px;
+        height: 4em;
+        margin: 1em;
+        border-radius: 20px;
+        box-shadow: $shadow;
+    }
+    .fontionnement__content {
+        p{
+            text-align: center;
+            font-family: $texte_font;
+            font-weight: bold;
+            margin-top: 0;
+        }
+        i {
+            padding-right: 1em;
+        }
+    .fonctionnement--number {
+
+        background-color: #9356DC;
+        width: 1.5em;
+        height: 1.5em;
+        border-radius: 50%;
+        text-align: center;
+        margin: 0;
+        font-family: $texte_font;
+        color: white;
+
+
+
+    }
+
+
+
+
+    }
+
+
+
+
+}
+
