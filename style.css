@@ -35,7 +35,7 @@ nav i {
 .reservation {
   width: 100%;
   background-color: #f6f6f6;
-  height: 12em;
+  min-height: 16em;
 }
 .reservation .reservation__content {
   text-align: center;
@@ -46,7 +46,7 @@ nav i {
   font-family: "Raleway", sans-serif;
 }
 .reservation .reservation__content p {
-  padding-top: 1em;
+  padding: 1em;
   font-family: "Raleway", sans-serif;
 }
 .reservation .reservation__btn {
@@ -58,6 +58,8 @@ nav i {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   outline: 0;
   border: 0;
-  background-image: linear-gradient(to right, #9356DC 51%, #FF79DA 100%);
+  background-image: linear-gradient(#FF79DA 10%, #9356DC 100%);
   color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */

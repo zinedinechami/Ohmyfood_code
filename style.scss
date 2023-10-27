@@ -22,6 +22,17 @@ $shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
 // mixins
 
+@mixin purple_button {
+    border-radius: 20px;
+    box-shadow: $shadow;
+    outline: 0;
+    border: 0;
+    background-image: linear-gradient($pink 10%, $purple 100%);
+    color: white;
+    font-family: $texte_font;
+    font-weight: bold;
+}
+
 
 
 // body
@@ -64,12 +75,13 @@ nav {
     }
 }
 
-
+// reservation
 
 .reservation {
     width: 100%;
     background-color: $grey_background;
-    height: 12em;
+    min-height: 16em;
+    
     .reservation__content {
         text-align: center;
         padding-top: 2em ;
@@ -78,8 +90,9 @@ nav {
             font-family: $texte_font;
         }
         p {
-            padding-top: 1em;
+            padding: 1em;
             font-family: $texte_font;
+
         }
     }
         .reservation__btn {
@@ -87,17 +100,8 @@ nav {
             margin-left: auto;
             margin-right: auto;
             padding: 1em;
-            border-radius: 20px;
-            box-shadow: $shadow;
-            outline: 0;
-            border: 0;
-            background-image: linear-gradient(to right, $purple 51%, $pink 100%);
-            color: white;
+            @include purple_button;
 
         }
-
-
-
-
-
 }
+
