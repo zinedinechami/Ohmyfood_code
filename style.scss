@@ -144,17 +144,64 @@ nav {
         font-family: $texte_font;
         color: white;
 
-
-
+         }
     }
-
-
-
-
-    }
-
-
-
 
 }
 
+// restaurants
+
+.restaurants {
+    width: 100%;
+    padding-left: 1em;
+    background-color: $grey_background;
+    padding-bottom: 2em;
+    h2 {
+        font-family: $texte_font;
+        padding-top: 2em;
+    }
+    .restaurants__cards{
+        width: 400px;
+        height: 300px;
+        background-color: white;
+        border-radius: 20px;
+        margin-bottom: 2em;
+
+        img {
+            width: 400px;
+            height: 200px;
+            object-fit: cover;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+            .restaurants__cards--content {
+                padding-left: 1em;
+                h3 {
+                    font-family: $texte_font;
+                }
+                p {
+                    font-family: $texte_font;
+                }
+            }
+    }
+    
+}
+
+footer {
+    width: 100%;
+    background-color: #353535;
+    padding-bottom: 1em;
+    h3{
+        font-family: $title_font;
+        color: white;
+    }
+    ul {
+        list-style: none;
+        color: white;
+        font-family: $texte_font;
+        li {
+            padding-top: 1em;
+        }
+    }
+
+}

@@ -97,4 +97,57 @@ nav i {
   margin: 0;
   font-family: "Raleway", sans-serif;
   color: white;
+}
+
+.restaurants {
+  width: 100%;
+  padding-left: 1em;
+  background-color: #f6f6f6;
+  padding-bottom: 2em;
+}
+.restaurants h2 {
+  font-family: "Raleway", sans-serif;
+  padding-top: 2em;
+}
+.restaurants .restaurants__cards {
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 2em;
+}
+.restaurants .restaurants__cards img {
+  width: 400px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.restaurants .restaurants__cards .restaurants__cards--content {
+  padding-left: 1em;
+}
+.restaurants .restaurants__cards .restaurants__cards--content h3 {
+  font-family: "Raleway", sans-serif;
+}
+.restaurants .restaurants__cards .restaurants__cards--content p {
+  font-family: "Raleway", sans-serif;
+}
+
+footer {
+  width: 100%;
+  background-color: #353535;
+  padding-bottom: 1em;
+}
+footer h3 {
+  font-family: "Shrikhand", serif;
+  color: white;
+}
+footer ul {
+  list-style: none;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+footer ul li {
+  padding-top: 1em;
 }/*# sourceMappingURL=style.css.map */
