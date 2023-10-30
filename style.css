@@ -79,11 +79,19 @@ nav i {
   border-radius: 20px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+.fonctionnement .fontionnement__content {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+}
 .fonctionnement .fontionnement__content p {
-  text-align: center;
+  text-align: left;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   margin-top: 0;
+  margin: 0;
+  width: 70%;
 }
 .fonctionnement .fontionnement__content i {
   padding-right: 1em;
@@ -142,6 +150,8 @@ footer {
 footer h3 {
   font-family: "Shrikhand", serif;
   color: white;
+  padding-top: 1em;
+  padding-left: 2em;
 }
 footer ul {
   list-style: none;
@@ -150,4 +160,8 @@ footer ul {
 }
 footer ul li {
   padding-top: 1em;
+}
+footer ul li i {
+  color: white;
+  padding-right: 1em;
 }/*# sourceMappingURL=style.css.map */
