@@ -112,6 +112,7 @@ nav {
     h1 {
         font-family: $texte_font;
         padding-left: 1em;
+        padding-bottom: 0.5em;
 
     }
 
@@ -134,13 +135,13 @@ nav {
             font-weight: bold;
             margin-top: 0;
             margin: 0;
-            width: 70%;
+            width: 75%;
         }
         i {
             padding-right: 1em;
         }
     .fonctionnement--number {
-        background-color: #9356DC;
+        background-color: $purple;
         width: 1.5em;
         height: 1.5em;
         border-radius: 50%;
@@ -190,6 +191,20 @@ nav {
                 }
             }
     }
+    .restaurants__cards--nouveau{
+        margin-top: 1em;
+        padding-top: 0.5em;
+        width: 80px;
+        height: 25px;
+        text-align: center;
+        background-color: $turquoise;
+        position: absolute;
+        right: 4em;
+        font-family: $texte_font;
+        color: green;
+        font-size: small;
+        
+    }
     
 }
 
@@ -197,10 +212,10 @@ footer {
     width: 100%;
     background-color: #353535;
     padding-bottom: 1em;
+    padding-top: 1em;
     h3{
         font-family: $title_font;
         color: white;
-        padding-top: 1em;
         padding-left: 2em;
     }
     ul {

@@ -70,6 +70,7 @@ nav i {
 .fonctionnement h1 {
   font-family: "Raleway", sans-serif;
   padding-left: 1em;
+  padding-bottom: 0.5em;
 }
 .fonctionnement .fonctionnment__background {
   background-color: white;
@@ -91,7 +92,7 @@ nav i {
   font-weight: bold;
   margin-top: 0;
   margin: 0;
-  width: 70%;
+  width: 75%;
 }
 .fonctionnement .fontionnement__content i {
   padding-right: 1em;
@@ -141,16 +142,29 @@ nav i {
 .restaurants .restaurants__cards .restaurants__cards--content p {
   font-family: "Raleway", sans-serif;
 }
+.restaurants .restaurants__cards--nouveau {
+  margin-top: 1em;
+  padding-top: 0.5em;
+  width: 80px;
+  height: 25px;
+  text-align: center;
+  background-color: #99E2D0;
+  position: absolute;
+  right: 4em;
+  font-family: "Raleway", sans-serif;
+  color: green;
+  font-size: small;
+}
 
 footer {
   width: 100%;
   background-color: #353535;
   padding-bottom: 1em;
+  padding-top: 1em;
 }
 footer h3 {
   font-family: "Shrikhand", serif;
   color: white;
-  padding-top: 1em;
   padding-left: 2em;
 }
 footer ul {
