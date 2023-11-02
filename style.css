@@ -155,6 +155,15 @@ nav i {
   color: green;
   font-size: small;
 }
+.restaurants .restaurants__cards--like {
+  float: right;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 22px;
+}
 
 footer {
   width: 100%;

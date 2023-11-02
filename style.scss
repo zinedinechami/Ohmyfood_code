@@ -185,6 +185,7 @@ nav {
                 padding-left: 1em;
                 h3 {
                     font-family: $texte_font;
+                    
                 }
                 p {
                     font-family: $texte_font;
@@ -202,8 +203,17 @@ nav {
         right: 4em;
         font-family: $texte_font;
         color: green;
-        font-size: small;
-        
+        font-size: small; 
+    }
+
+    .restaurants__cards--like {
+        float: right;
+        padding-right: 1em;
+        padding-top: 0.5em;
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        font-size: 22px;
     }
     
 }
