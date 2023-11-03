@@ -62,6 +62,11 @@ nav i {
   color: white;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
+  transition-duration: 1s;
+}
+.reservation .reservation__btn:hover {
+  opacity: 70%;
+  scale: 1.05;
 }
 
 .fonctionnement {
