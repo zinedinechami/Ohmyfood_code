@@ -66,7 +66,8 @@ nav i {
 }
 .reservation .reservation__btn:hover {
   opacity: 70%;
-  scale: 1.05;
+  scale: 1;
+  box-shadow: none;
 }
 
 .fonctionnement {
@@ -148,14 +149,17 @@ nav i {
   font-family: "Raleway", sans-serif;
 }
 .restaurants .restaurants__cards--nouveau {
-  margin-top: 1em;
-  padding-top: 0.5em;
+  position: relative;
+}
+.restaurants .restaurants__cards--nouveau .restaurants__cards--nouveau_box {
+  top: 1em;
+  right: 1em;
   width: 80px;
   height: 25px;
+  padding-top: 0.5em;
   text-align: center;
   background-color: #99E2D0;
   position: absolute;
-  right: 4em;
   font-family: "Raleway", sans-serif;
   color: green;
   font-size: small;
@@ -168,6 +172,10 @@ nav i {
   height: 60px;
   text-align: center;
   font-size: 22px;
+}
+.restaurants .restaurants__cards--like:hover {
+  color: #9356DC;
+  cursor: pointer;
 }
 
 footer {
