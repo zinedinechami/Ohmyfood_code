@@ -207,24 +207,21 @@ nav {
      }
     }
 
-    .restaurants__cards--like {
+    .icon {
+        fill: transparent;
+        stroke: black;
+        stroke-width: 2%;
         float: right;
-        padding-right: 1em;
-        padding-top: 0.5em;
-        width: 60px;
-        height: 60px;
+        width: 50px;
         text-align: center;
-        font-size: 22px;
         &:hover {
-            color: $purple;
-            cursor: pointer;
+            fill: $purple;
+            stroke-width: 0;
         }
-    }
-    
 }
 
 
-// footer
+
 
 footer {
     width: 100%;
@@ -248,5 +245,4 @@ footer {
             }
         }
     }
-
 }

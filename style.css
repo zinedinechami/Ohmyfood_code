@@ -164,18 +164,20 @@ nav i {
   color: green;
   font-size: small;
 }
-.restaurants .restaurants__cards--like {
+.restaurants .icon {
+  fill: transparent;
+  stroke: black;
+  stroke-width: 5%;
   float: right;
-  padding-right: 1em;
-  padding-top: 0.5em;
-  width: 60px;
-  height: 60px;
-  text-align: center;
-  font-size: 22px;
+  width: 50px;
+  overflow: visible;
 }
-.restaurants .restaurants__cards--like:hover {
-  color: #9356DC;
-  cursor: pointer;
+.restaurants .icon:hover {
+  fill: #9356DC;
+  stroke-width: 0;
+}
+.restaurants .icon path {
+  width: 22px;
 }
 
 footer {
