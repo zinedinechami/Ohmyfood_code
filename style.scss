@@ -204,7 +204,7 @@ nav {
         font-family: $texte_font;
         color: green;
         font-size: small; 
-     }
+        }
     }
 
     .icon {
@@ -218,6 +218,7 @@ nav {
             fill: $purple;
             stroke-width: 0;
         }
+    }
 }
 
 
@@ -228,23 +229,21 @@ footer {
     background-color: #353535;
     padding-bottom: 1em;
     padding-top: 1em;
-}
-
-    h3{
+    h3 {
         font-family: $title_font;
         color: white;
         padding-left: 2em;
     }
-    ul {
+    ul{
         list-style: none;
         color: white;
         font-family: $texte_font;
-        li {
-            padding-top: 1em;
-            i {
-                color: white;
-                padding-right: 1em ;
-            }
+        li{
+        padding-top: 1em; 
+        i{
+        color: white;
+        padding-right: 1em;
+          }
         }
     }
 }

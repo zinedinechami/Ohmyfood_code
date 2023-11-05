@@ -167,17 +167,14 @@ nav i {
 .restaurants .icon {
   fill: transparent;
   stroke: black;
-  stroke-width: 5%;
+  stroke-width: 2%;
   float: right;
   width: 50px;
-  overflow: visible;
+  text-align: center;
 }
 .restaurants .icon:hover {
   fill: #9356DC;
   stroke-width: 0;
-}
-.restaurants .icon path {
-  width: 22px;
 }
 
 footer {
