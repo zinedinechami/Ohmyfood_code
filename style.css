@@ -6,7 +6,7 @@ header {
   width: 100%;
   height: 4em;
   background-color: white;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 header .header__logo {
   padding-top: 1em;
@@ -55,7 +55,7 @@ nav i {
   margin-right: auto;
   padding: 1em;
   border-radius: 20px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   outline: 0;
   border: 0;
   background-image: linear-gradient(#FF79DA 10%, #9356DC 100%);
@@ -65,13 +65,18 @@ nav i {
   transition-duration: 1s;
 }
 .reservation .reservation__btn:hover {
-  opacity: 70%;
+  opacity: 65%;
   scale: 1;
   box-shadow: none;
 }
 
 .fonctionnement {
+  width: 100%;
   padding-top: 2em;
+}
+.fonctionnement .fonctionnement__cards {
+  display: flex;
+  flex-wrap: wrap;
 }
 .fonctionnement h1 {
   font-family: "Raleway", sans-serif;
@@ -84,15 +89,15 @@ nav i {
   height: 4em;
   margin: 1em;
   border-radius: 20px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.fonctionnement .fontionnement__content {
+.fonctionnement .fonctionnement__content {
   display: flex;
   align-items: center;
   height: 100%;
   justify-content: space-between;
 }
-.fonctionnement .fontionnement__content p {
+.fonctionnement .fonctionnement__content p {
   text-align: left;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
@@ -100,10 +105,10 @@ nav i {
   margin: 0;
   width: 75%;
 }
-.fonctionnement .fontionnement__content i {
+.fonctionnement .fonctionnement__content i {
   padding-right: 1em;
 }
-.fonctionnement .fontionnement__content .fonctionnement--number {
+.fonctionnement .fonctionnement__content .fonctionnement--number {
   background-color: #9356DC;
   width: 1.5em;
   height: 1.5em;
@@ -120,33 +125,44 @@ nav i {
   background-color: #f6f6f6;
   padding-bottom: 2em;
 }
+.restaurants .restaurants__cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
 .restaurants h2 {
   font-family: "Raleway", sans-serif;
   padding-top: 2em;
 }
-.restaurants .restaurants__cards {
-  width: 400px;
-  height: 300px;
+.restaurants .restaurants__background {
+  width: 490px;
+  min-width: 300px;
+  height: 290px;
   background-color: white;
   border-radius: 20px;
+  padding-bottom: 0;
   margin-bottom: 2em;
+  margin-right: 2em;
 }
-.restaurants .restaurants__cards img {
-  width: 400px;
+.restaurants .restaurants__background img {
+  width: 100%;
   height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-.restaurants .restaurants__cards .restaurants__cards--content {
+.restaurants .restaurants__background .restaurants__cards--content {
   padding-left: 1em;
 }
-.restaurants .restaurants__cards .restaurants__cards--content h3 {
+.restaurants .restaurants__background .restaurants__cards--content h3 {
   font-family: "Raleway", sans-serif;
+  margin-bottom: 0;
 }
-.restaurants .restaurants__cards .restaurants__cards--content p {
+.restaurants .restaurants__background .restaurants__cards--content p {
   font-family: "Raleway", sans-serif;
+  margin-top: 0.5em;
 }
 .restaurants .restaurants__cards--nouveau {
   position: relative;
@@ -156,25 +172,31 @@ nav i {
   right: 1em;
   width: 80px;
   height: 25px;
-  padding-top: 0.5em;
+  padding-top: 0.6em;
   text-align: center;
   background-color: #99E2D0;
   position: absolute;
   font-family: "Raleway", sans-serif;
   color: green;
   font-size: small;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .restaurants .icon {
   fill: transparent;
   stroke: black;
-  stroke-width: 2%;
-  float: right;
+  stroke-width: 5%;
   width: 50px;
+  padding: 0;
+  float: right;
   text-align: center;
 }
 .restaurants .icon:hover {
   fill: #9356DC;
   stroke-width: 0;
+}
+.restaurants .icon .heart-main {
+  width: 19px;
+  height: 22px;
 }
 
 footer {

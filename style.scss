@@ -17,7 +17,7 @@ $grey_background: #f6f6f6;
 
 $nav_background: #eaeaea;
 
-$shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+$shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 
 // mixins
@@ -33,10 +33,22 @@ $shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     font-weight: bold;
     transition-duration: 1s;
     &:hover {
-        opacity: 70%;
+        opacity: 65%;
         scale: 1;
         box-shadow: none;
     }
+}
+
+@mixin like-button {
+        fill: transparent;
+        stroke: black;
+        stroke-width: 5%;
+        width: 50px;
+        padding: 0;
+        &:hover {
+            fill: $purple;
+            stroke-width: 0;
+        }
 }
 
 
@@ -111,7 +123,12 @@ nav {
 // fonctionnement
 
 .fonctionnement {
+    width: 100%;
     padding-top: 2em;
+    .fonctionnement__cards  {
+        display: flex;
+        flex-wrap: wrap;
+    }
     h1 {
         font-family: $texte_font;
         padding-left: 1em;
@@ -125,7 +142,7 @@ nav {
         border-radius: 20px;
         box-shadow: $shadow;
     }
-    .fontionnement__content {
+    .fonctionnement__content {
         display: flex;
         align-items: center;
         height: 100%;
@@ -162,18 +179,27 @@ nav {
     padding-left: 1em;
     background-color: $grey_background;
     padding-bottom: 2em;
+    .restaurants__cards {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
     h2 {
         font-family: $texte_font;
         padding-top: 2em;
     }
-    .restaurants__cards{
-        width: 400px;
-        height: 300px;
+    .restaurants__background{
+        width: 490px;
+        min-width: 300px;
+        height: 290px;
         background-color: white;
         border-radius: 20px;
+        padding-bottom: 0;
         margin-bottom: 2em;
+        margin-right: 2em;
         img {
-            width: 400px;
+            width: 100%;
             height: 200px;
             object-fit: cover;
             border-top-left-radius: 20px;
@@ -183,9 +209,11 @@ nav {
                 padding-left: 1em;
                 h3 {
                     font-family: $texte_font;
+                    margin-bottom: 0;
                 }
                 p {
                     font-family: $texte_font;
+                    margin-top: 0.5em;
                 }
             }
     }
@@ -197,26 +225,23 @@ nav {
         right: 1em;
         width: 80px;
         height: 25px;
-        padding-top: 0.5em;
+        padding-top: 0.6em;
         text-align: center;
         background-color: $turquoise;
         position: absolute;
         font-family: $texte_font;
         color: green;
         font-size: small; 
+        box-shadow: $shadow;
         }
     }
-
     .icon {
-        fill: transparent;
-        stroke: black;
-        stroke-width: 2%;
+        @include like-button;
         float: right;
-        width: 50px;
         text-align: center;
-        &:hover {
-            fill: $purple;
-            stroke-width: 0;
+        .heart-main {
+            width: 19px;
+            height: 22px;
         }
     }
 }
