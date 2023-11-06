@@ -43,9 +43,10 @@ $shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 @mixin like-button {
         fill: transparent;
         stroke: black;
-        stroke-width: 5%;
+        stroke-width: 2%;
         width: 50px;
         padding: 0;
+        transition: 0.8s ease-in;
         &:hover {
             fill: $purple;
             stroke-width: 0;
@@ -100,7 +101,8 @@ nav {
 .reservation {
     width: 100%;
     background-color: $grey_background;
-    min-height: 16em;
+    height: 16em;
+    min-height: 14em;
     .reservation__content {
         text-align: center;
         padding-top: 2em ;

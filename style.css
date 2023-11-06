@@ -35,7 +35,8 @@ nav i {
 .reservation {
   width: 100%;
   background-color: #f6f6f6;
-  min-height: 16em;
+  height: 16em;
+  min-height: 14em;
 }
 .reservation .reservation__content {
   text-align: center;
@@ -186,9 +187,10 @@ nav i {
 .restaurants .icon {
   fill: transparent;
   stroke: black;
-  stroke-width: 5%;
+  stroke-width: 2%;
   width: 50px;
   padding: 0;
+  transition: 0.8s ease-in;
   float: right;
   text-align: center;
 }
