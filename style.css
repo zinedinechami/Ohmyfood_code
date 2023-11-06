@@ -110,14 +110,20 @@ nav i {
 }
 .fonctionnement .fonctionnement__content i {
   padding-right: 1em;
+  transition: 0.5s ease-in;
+}
+.fonctionnement .fonctionnement__content i:hover {
+  color: #9356DC;
+  cursor: pointer;
 }
 .fonctionnement .fonctionnement__content .fonctionnement--number {
+  position: relative;
   background-color: #9356DC;
   width: 1.5em;
   height: 1.5em;
   border-radius: 50%;
   text-align: center;
-  margin: 0;
+  left: -0.5em;
   font-family: "Raleway", sans-serif;
   color: white;
 }
