@@ -46,14 +46,18 @@ $shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         stroke-width: 2%;
         width: 50px;
         padding: 0;
-        transition: 0.8s ease-in;
+        transition: 1s ease-in;
         &:hover {
-            fill: $purple;
+            fill: url(#gradient-heart);
             stroke-width: 0;
             cursor: pointer;
         }
 }
 
+#gradient-heart {
+    --color-stop-1: #a770ef;
+    --color-stop-2: #cf8bf3;
+  }
 
 
 // body

@@ -1,3 +1,8 @@
+#gradient-heart {
+  --color-stop-1: #a770ef;
+  --color-stop-2: #cf8bf3;
+}
+
 body {
   margin: 0;
 }
@@ -199,12 +204,12 @@ nav i {
   stroke-width: 2%;
   width: 50px;
   padding: 0;
-  transition: 0.8s ease-in;
+  transition: 1s ease-in;
   float: right;
   text-align: center;
 }
 .restaurants .icon:hover {
-  fill: #9356DC;
+  fill: url(#gradient-heart);
   stroke-width: 0;
   cursor: pointer;
 }
