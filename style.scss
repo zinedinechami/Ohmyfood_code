@@ -88,11 +88,12 @@ nav {
     .nav__content{
         text-align: center;
         font-family: $texte_font;
-        color: black;
+        color: rgb(58, 58, 58);
         padding-top: 1px;
+        font-weight: bold;
     }
     i {
-        padding-right: 5px;
+        padding-right: 1em;
     }
 }
 
@@ -244,6 +245,8 @@ nav {
         color: green;
         font-size: small; 
         box-shadow: $shadow;
+        border-radius: 2px;
+        font-weight: bold;
         }
     }
     .icon {

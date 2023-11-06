@@ -25,11 +25,12 @@ nav {
 nav .nav__content {
   text-align: center;
   font-family: "Raleway", sans-serif;
-  color: black;
+  color: rgb(58, 58, 58);
   padding-top: 1px;
+  font-weight: bold;
 }
 nav i {
-  padding-right: 5px;
+  padding-right: 1em;
 }
 
 .reservation {
@@ -189,6 +190,8 @@ nav i {
   color: green;
   font-size: small;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 2px;
+  font-weight: bold;
 }
 .restaurants .icon {
   fill: transparent;
