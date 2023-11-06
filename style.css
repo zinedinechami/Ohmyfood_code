@@ -68,6 +68,7 @@ nav i {
   opacity: 65%;
   scale: 1;
   box-shadow: none;
+  cursor: pointer;
 }
 
 .fonctionnement {
@@ -77,6 +78,7 @@ nav i {
 .fonctionnement .fonctionnement__cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .fonctionnement h1 {
   font-family: "Raleway", sans-serif;
@@ -129,7 +131,7 @@ nav i {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .restaurants h2 {
   font-family: "Raleway", sans-serif;
@@ -193,6 +195,7 @@ nav i {
 .restaurants .icon:hover {
   fill: #9356DC;
   stroke-width: 0;
+  cursor: pointer;
 }
 .restaurants .icon .heart-main {
   width: 19px;
