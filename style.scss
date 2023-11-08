@@ -134,6 +134,7 @@ nav {
 .fonctionnement {
     width: 100%;
     padding-top: 2em;
+    
     .fonctionnement__cards  {
         display: flex;
         flex-wrap: wrap;
@@ -235,10 +236,13 @@ nav {
                     font-family: $texte_font;
                     margin-bottom: 0;
                     width: 50%;
+                    text-decoration: none;
+                    color: black;
                 }
                 p {
                     font-family: $texte_font;
                     margin-top: 0.5em;
+                    color: black;
                 }
             }
     }
@@ -311,6 +315,32 @@ footer {
             margin: 0;
         }
 
+    }
+}
+
+
+// menu pages
+
+// menu header
+.header--return {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    color: black;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+}
+
+
+// menu image
+.menu_header {
+    width: 100%;
+    height: 4em;
+    img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
     }
 }
 

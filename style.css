@@ -186,10 +186,13 @@ nav i {
   font-family: "Raleway", sans-serif;
   margin-bottom: 0;
   width: 50%;
+  text-decoration: none;
+  color: black;
 }
 .restaurants .restaurants__background .restaurants__cards--content p {
   font-family: "Raleway", sans-serif;
   margin-top: 0.5em;
+  color: black;
 }
 .restaurants .restaurants__cards--nouveau {
   position: relative;
@@ -268,4 +271,25 @@ footer ul i {
     padding: 0;
     margin: 0;
   }
+}
+
+.header--return {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  color: black;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+}
+
+.menu_header {
+  width: 100%;
+  height: 4em;
+}
+.menu_header img {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
