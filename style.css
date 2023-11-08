@@ -174,6 +174,7 @@ nav i {
 .restaurants .restaurants__background .restaurants__cards--content h3 {
   font-family: "Raleway", sans-serif;
   margin-bottom: 0;
+  width: 50%;
 }
 .restaurants .restaurants__background .restaurants__cards--content p {
   font-family: "Raleway", sans-serif;
@@ -204,9 +205,8 @@ nav i {
   stroke-width: 2%;
   width: 50px;
   padding: 0;
-  transition: 1s ease-in;
+  transition: 1s ease-in-out;
   float: right;
-  text-align: center;
 }
 .restaurants .icon:hover {
   fill: url(#gradient-heart);
@@ -215,7 +215,6 @@ nav i {
 }
 .restaurants .icon .heart-main {
   width: 19px;
-  height: 22px;
 }
 
 footer {

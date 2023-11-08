@@ -46,7 +46,7 @@ $shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         stroke-width: 2%;
         width: 50px;
         padding: 0;
-        transition: 1s ease-in;
+        transition: 1s ease-in-out;
         &:hover {
             fill: url(#gradient-heart);
             stroke-width: 0;
@@ -226,6 +226,7 @@ nav {
                 h3 {
                     font-family: $texte_font;
                     margin-bottom: 0;
+                    width: 50%;
                 }
                 p {
                     font-family: $texte_font;
@@ -256,10 +257,8 @@ nav {
     .icon {
         @include like-button;
         float: right;
-        text-align: center;
         .heart-main {
             width: 19px;
-            height: 22px;
         }
     }
 }
