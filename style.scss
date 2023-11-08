@@ -143,6 +143,10 @@ nav {
         font-family: $texte_font;
         padding-left: 1em;
         padding-bottom: 0.5em;
+
+        @media (min-width: 1320px) {
+            padding-left: 4em;
+        }
     }
     .fonctionnment__background {
         background-color: white;
@@ -204,9 +208,13 @@ nav {
     h2 {
         font-family: $texte_font;
         padding-top: 2em;
+        @media (min-width: 1320px) {
+            padding-left: 4em;
+            padding-bottom: 1em;
+        }
     }
     .restaurants__background{
-        width: 490px;
+        width: 600px;
         min-width: 300px;
         height: 290px;
         background-color: white;
@@ -282,10 +290,17 @@ footer {
         font-family: $texte_font;
         li{
         padding-top: 1em; 
+    }
+
         i{
         color: white;
         padding-right: 1em;
           }
-        }
-    }
+        
+     }
 }
+
+@media (max-width: 1320px) {
+    
+}
+
