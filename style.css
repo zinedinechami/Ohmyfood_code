@@ -239,6 +239,15 @@ footer h3 {
   color: white;
   padding-left: 2em;
 }
+@media (min-width: 1320px) {
+  footer h3 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
+    padding: 0;
+    margin-right: 1em;
+  }
+}
 footer ul {
   list-style: none;
   color: white;
@@ -250,4 +259,13 @@ footer ul li {
 footer ul i {
   color: white;
   padding-right: 1em;
+}
+@media (min-width: 1320px) {
+  footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+  }
 }/*# sourceMappingURL=style.css.map */
