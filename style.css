@@ -128,7 +128,7 @@ nav i {
   color: #9356DC;
   cursor: pointer;
 }
-.fonctionnement .fonctionnement__content .fonctionnement--number {
+.fonctionnement .fonctionnement__content .fonctionnement__content--number {
   position: relative;
   background-color: #9356DC;
   width: 1.5em;
@@ -184,17 +184,17 @@ nav i {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-.restaurants .restaurants__background .restaurants__cards--content {
+.restaurants .restaurants__background .restaurants__content {
   padding-left: 1em;
 }
-.restaurants .restaurants__background .restaurants__cards--content h3 {
+.restaurants .restaurants__background .restaurants__content h3 {
   font-family: "Raleway", sans-serif;
   margin-bottom: 0;
   width: 50%;
   text-decoration: none;
   color: black;
 }
-.restaurants .restaurants__background .restaurants__cards--content p {
+.restaurants .restaurants__background .restaurants__content p {
   font-family: "Raleway", sans-serif;
   margin-top: 0.5em;
   color: black;
@@ -218,7 +218,7 @@ nav i {
   border-radius: 2px;
   font-weight: bold;
 }
-.restaurants .icon {
+.restaurants .restaurants__content--icon {
   fill: transparent;
   stroke: black;
   stroke-width: 2%;
@@ -227,19 +227,18 @@ nav i {
   transition: 1s ease-in-out;
   float: right;
 }
-.restaurants .icon:hover {
+.restaurants .restaurants__content--icon:hover {
   fill: url(#gradient-heart);
   stroke-width: 0;
   cursor: pointer;
 }
-.restaurants .icon .heart-main {
+.restaurants .restaurants__content--icon .heart-main {
   width: 19px;
 }
 
-.removelinkdefault {
+.restaurants__remove_decoration {
   color: black;
   text-decoration: none;
-  display: flex;
 }
 
 footer {
@@ -294,19 +293,14 @@ footer ul i {
   justify-content: center;
 }
 
-.menu_header {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-.menu_header img {
+.header__img img {
   width: 100%;
   height: 400px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.plats {
+.menu {
   width: 100%;
   height: 600px;
   margin-top: 0;
@@ -314,16 +308,16 @@ footer ul i {
   border-top-left-radius: 40px;
   background-color: #f6f6f6;
 }
-.plats .plats_header {
+.menu .menu__header {
   position: relative;
 }
-.plats .plats_header h2 {
+.menu .menu__header h2 {
   margin: 0;
   padding-top: 1em;
   padding-left: 1em;
   font-family: "Shrikhand", serif;
 }
-.plats .plats_header .plats_header--icon {
+.menu .menu__header .menu__header--icon {
   fill: transparent;
   stroke: black;
   stroke-width: 2%;
@@ -334,7 +328,7 @@ footer ul i {
   right: 1.5em;
   top: 2em;
 }
-.plats .plats_header .plats_header--icon:hover {
+.menu .menu__header .menu__header--icon:hover {
   fill: url(#gradient-heart);
   stroke-width: 0;
   cursor: pointer;
