@@ -296,11 +296,85 @@ footer ul i {
 
 .menu_header {
   width: 100%;
-  height: 4em;
+  margin: 0;
+  padding: 0;
 }
 .menu_header img {
   width: 100%;
   height: 400px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.plats {
+  width: 100%;
+  height: 600px;
+  margin-top: 0;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  background-color: #f6f6f6;
+}
+.plats .plats_header {
+  position: relative;
+}
+.plats .plats_header h2 {
+  margin: 0;
+  padding-top: 1em;
+  padding-left: 1em;
+  font-family: "Shrikhand", serif;
+}
+.plats .plats_header .plats_header--icon {
+  fill: transparent;
+  stroke: black;
+  stroke-width: 2%;
+  width: 50px;
+  padding: 0;
+  transition: 1s ease-in-out;
+  position: absolute;
+  right: 1.5em;
+  top: 2em;
+}
+.plats .plats_header .plats_header--icon:hover {
+  fill: url(#gradient-heart);
+  stroke-width: 0;
+  cursor: pointer;
+}
+
+.menus__cards .menus__cards--title {
+  font-family: "Raleway", sans-serif;
+  font-weight: lighter;
+  padding-left: 0.5em;
+  -webkit-text-decoration: underline 2px #99E2D0;
+          text-decoration: underline 2px #99E2D0;
+}
+.menus__cards .menus__background {
+  background-color: white;
+  width: 400px;
+  min-width: 300px;
+  height: 70px;
+  margin: 1em;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.menus__cards .menus__content {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 4em;
+  width: 400px;
+}
+.menus__cards .menus__content h3 {
+  font-weight: bolder;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+.menus__cards .menus__content p {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+.menus__cards .menus__content .menus__content--price {
+  float: right;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
