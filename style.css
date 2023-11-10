@@ -257,12 +257,6 @@ footer .footer__title {
   font-family: "Shrikhand", serif;
   color: white;
 }
-@media (min-width: 1320px) {
-  footer .footer__title {
-    display: flex;
-    flex-direction: reverse;
-  }
-}
 footer ul {
   list-style: none;
   color: white;
@@ -278,7 +272,7 @@ footer ul i {
 @media (min-width: 1320px) {
   footer ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-evenly;
     padding: 0;
     margin: 0;
@@ -317,6 +311,7 @@ footer ul i {
   padding-top: 1em;
   padding-left: 1em;
   font-family: "Shrikhand", serif;
+  font-weight: 400;
 }
 .menu .menu__header .menu__header--icon {
   fill: transparent;
@@ -326,8 +321,10 @@ footer ul i {
   padding: 0;
   transition: 1s ease-in-out;
   position: absolute;
-  right: 1.5em;
+  right: 2em;
   top: 2em;
+  margin: 0;
+  padding: 0;
 }
 .menu .menu__header .menu__header--icon:hover {
   fill: url(#gradient-heart);

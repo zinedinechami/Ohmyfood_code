@@ -299,10 +299,6 @@ footer {
     .footer__title {
         font-family: $title_font;
         color: white;
-        @media (min-width: 1320px) {
-            display: flex;
-            flex-direction: reverse;
-        }
     }
     ul{
         list-style: none;
@@ -317,7 +313,7 @@ footer {
           }
         @media (min-width: 1320px) {
             display: flex;
-            flex-direction: row;
+            flex-direction: row-reverse;
             justify-content: space-evenly;
             padding: 0;
             margin: 0;
@@ -364,12 +360,15 @@ footer {
             padding-top: 1em;
             padding-left: 1em;
             font-family: $title_font;
+            font-weight: 400;
         }
         .menu__header--icon {
             @include like-button;
             position: absolute;
-            right: 1.5em;
+            right: 2em;
             top: 2em;
+            margin: 0;
+            padding: 0;
         }
     }
 
