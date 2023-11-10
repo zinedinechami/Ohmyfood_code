@@ -335,12 +335,16 @@ footer ul i {
   cursor: pointer;
 }
 
+.menus__cards {
+  padding-bottom: 3em;
+}
 .menus__cards .menus__cards--title {
   font-family: "Roboto", sans-serif;
   font-weight: lighter;
   padding-left: 0.5em;
   -webkit-text-decoration: underline 2px #99E2D0;
           text-decoration: underline 2px #99E2D0;
+  padding-top: 1.5em;
 }
 .menus__cards .menus__background {
   background-color: white;
@@ -393,6 +397,10 @@ footer ul i {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   transition-duration: 1s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
 }
 .menus__cards .menu__btn:hover {
   opacity: 65%;
