@@ -55,7 +55,7 @@ nav i {
 .reservation .reservation__content p {
   padding: 1em;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
 }
 .reservation .reservation__btn {
   display: block;
@@ -76,7 +76,6 @@ nav i {
 }
 .reservation .reservation__btn:hover {
   opacity: 65%;
-  scale: 1;
   box-shadow: none;
   cursor: pointer;
 }
@@ -201,7 +200,7 @@ nav i {
 }
 .restaurants .restaurants__background .restaurants__content p {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   margin-top: 0.5em;
   color: black;
 }
@@ -289,18 +288,20 @@ footer ul i {
   justify-content: center;
 }
 
+.header__img {
+  height: 400px;
+}
 .header__img img {
   width: 100%;
   height: 400px;
   -o-object-fit: cover;
      object-fit: cover;
+  margin: 0;
 }
 
 .menu {
   width: 100%;
   margin-top: 0;
-  border-top-right-radius: 40px;
-  border-top-left-radius: 40px;
   background-color: #f6f6f6;
 }
 .menu .menu__header {
@@ -401,7 +402,6 @@ footer ul i {
 }
 .menus__cards .menu__btn:hover {
   opacity: 65%;
-  scale: 1;
   box-shadow: none;
   cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
