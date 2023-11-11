@@ -311,10 +311,10 @@ footer {
         padding-right: 1em;
           }
         @media (min-width: 1320px) {
+            padding-top: 3em;
             display: flex;
             flex-direction: row-reverse;
             justify-content: space-evenly;
-            padding: 0;
             margin: 0;
         }
     }
@@ -373,14 +373,22 @@ footer {
 
 }
 
+
+
+
 .menus__cards {
-    padding-bottom: 3em;
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     .menus__cards--title {
         font-family: $texte_font;
         font-weight: lighter;
         padding-left: 0.5em;
         text-decoration: underline 2px $turquoise;
         padding-top: 1.5em;
+        align-self: flex-start;
     }
     .menus__background {
         background-color: white;

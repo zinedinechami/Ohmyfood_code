@@ -270,10 +270,10 @@ footer ul i {
 }
 @media (min-width: 1320px) {
   footer ul {
+    padding-top: 3em;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
-    padding: 0;
     margin: 0;
   }
 }
@@ -334,7 +334,11 @@ footer ul i {
 }
 
 .menus__cards {
-  padding-bottom: 3em;
+  padding-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .menus__cards .menus__cards--title {
   font-family: "Roboto", sans-serif;
@@ -343,6 +347,7 @@ footer ul i {
   -webkit-text-decoration: underline 2px #99E2D0;
           text-decoration: underline 2px #99E2D0;
   padding-top: 1.5em;
+  align-self: flex-start;
 }
 .menus__cards .menus__background {
   background-color: white;
