@@ -72,6 +72,7 @@ nav i {
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  transition-delay: 150ms;
   transition-duration: 1s;
 }
 .reservation .reservation__btn:hover {
@@ -229,8 +230,8 @@ nav i {
   stroke-width: 2%;
   width: 50px;
   padding: 0;
-  transition: 1s ease-in-out;
   overflow: visible;
+  transition: all 0.8s;
   float: right;
 }
 .restaurants .restaurants__content--icon:hover {
@@ -321,8 +322,8 @@ footer ul i {
   stroke-width: 2%;
   width: 50px;
   padding: 0;
-  transition: 1s ease-in-out;
   overflow: visible;
+  transition: all 0.8s;
   position: absolute;
   right: 2em;
   top: 2em;
@@ -401,6 +402,7 @@ footer ul i {
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  transition-delay: 150ms;
   transition-duration: 1s;
   display: block;
   margin-left: auto;

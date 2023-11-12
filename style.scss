@@ -35,6 +35,7 @@ $shadow_2: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px
     color: white;
     font-family: $texte_font;
     font-weight: 400;
+    transition-delay: 150ms;
     transition-duration: 1s;
     &:hover {
         opacity: 65%;
@@ -49,8 +50,8 @@ $shadow_2: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px
         stroke-width: 2%;
         width: 50px;
         padding: 0;
-        transition: 1s ease-in-out;
         overflow: visible;
+        transition: all 0.8s;
         &:hover {
             fill: url(#gradient-heart);
             stroke-width: 0;
