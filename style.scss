@@ -50,6 +50,7 @@ $shadow_2: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px
         width: 50px;
         padding: 0;
         transition: 1s ease-in-out;
+        overflow: visible;
         &:hover {
             fill: url(#gradient-heart);
             stroke-width: 0;

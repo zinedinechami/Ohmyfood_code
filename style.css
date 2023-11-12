@@ -230,6 +230,7 @@ nav i {
   width: 50px;
   padding: 0;
   transition: 1s ease-in-out;
+  overflow: visible;
   float: right;
 }
 .restaurants .restaurants__content--icon:hover {
@@ -321,6 +322,7 @@ footer ul i {
   width: 50px;
   padding: 0;
   transition: 1s ease-in-out;
+  overflow: visible;
   position: absolute;
   right: 2em;
   top: 2em;
