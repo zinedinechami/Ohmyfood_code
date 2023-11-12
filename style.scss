@@ -119,9 +119,12 @@ nav {
         h2 {
             margin: 0;
             font-family: $texte_font;
+            padding-left: 1em;
+            padding-right: 1em;
         }
         p {
-            padding: 1em;
+            padding-left: 1em;
+            padding-right: 1em;
             font-family: $texte_font;
             font-weight: 300;
         }
@@ -231,7 +234,7 @@ nav {
         margin-bottom: 2em;
         margin-right: 2em;
         @media (max-width: 1300px) {
-            width: 400px;
+            width: 340px;
         }
         img {
             width: 100%;
@@ -379,7 +382,7 @@ footer {
 
 
 .menus__cards {
-    padding-bottom: 2em;
+    padding-bottom: 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -389,16 +392,16 @@ footer {
         font-weight: lighter;
         padding-left: 0.5em;
         text-decoration: underline 2px $turquoise;
-        padding-top: 1.5em;
+        padding-top: 1em;
         align-self: flex-start;
     }
     .menus__background {
         background-color: white;
-        width: 400px;
-        min-width: 300px;
+        width: 350px;
         height: 70px;
+        padding-left: 1em;
         margin: 1em;
-        border-radius: 20px;
+        border-radius: 15px;
         box-shadow: $shadow;
     }
     .menus__content {
@@ -407,24 +410,23 @@ footer {
         flex-direction: column;
         margin: 0;
         height: 70px;
-        width: 400px;
+        width: 350px;
         h3 {
             font-weight: 500;
             font-family: $texte_font;
             margin-top: 0.5em;
-            margin-left: 1em;
             height: 1em;
             margin-bottom: 0.5em;
         }
         p {
             font-family: $texte_font;
             font-weight: 300;
-            margin-left: 1.1em;
             margin-top: 0;
+            font-size: medium;
         }
         .menus__content--price {
             position: absolute;
-            right: 1em;
+            right: 0.8em;
             top: 2.5em;
             font-family: $texte_font;
             font-weight: 500;
@@ -434,9 +436,9 @@ footer {
     .menu__btn {
         @include purple_button;
         display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2em;
     }
 
 }

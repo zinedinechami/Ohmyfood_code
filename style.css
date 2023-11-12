@@ -51,9 +51,12 @@ nav i {
 .reservation .reservation__content h2 {
   margin: 0;
   font-family: "Roboto", sans-serif;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 .reservation .reservation__content p {
-  padding: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
@@ -178,7 +181,7 @@ nav i {
 }
 @media (max-width: 1300px) {
   .restaurants .restaurants__background {
-    width: 400px;
+    width: 340px;
   }
 }
 .restaurants .restaurants__background img {
@@ -337,7 +340,7 @@ footer ul i {
 }
 
 .menus__cards {
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -349,16 +352,16 @@ footer ul i {
   padding-left: 0.5em;
   -webkit-text-decoration: underline 2px #99E2D0;
           text-decoration: underline 2px #99E2D0;
-  padding-top: 1.5em;
+  padding-top: 1em;
   align-self: flex-start;
 }
 .menus__cards .menus__background {
   background-color: white;
-  width: 400px;
-  min-width: 300px;
+  width: 350px;
   height: 70px;
+  padding-left: 1em;
   margin: 1em;
-  border-radius: 20px;
+  border-radius: 15px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .menus__cards .menus__content {
@@ -367,25 +370,24 @@ footer ul i {
   flex-direction: column;
   margin: 0;
   height: 70px;
-  width: 400px;
+  width: 350px;
 }
 .menus__cards .menus__content h3 {
   font-weight: 500;
   font-family: "Roboto", sans-serif;
   margin-top: 0.5em;
-  margin-left: 1em;
   height: 1em;
   margin-bottom: 0.5em;
 }
 .menus__cards .menus__content p {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  margin-left: 1.1em;
   margin-top: 0;
+  font-size: medium;
 }
 .menus__cards .menus__content .menus__content--price {
   position: absolute;
-  right: 1em;
+  right: 0.8em;
   top: 2.5em;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
