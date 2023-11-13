@@ -317,9 +317,21 @@ footer ul i {
   width: 100%;
   margin-top: 0;
   background-color: #f6f6f6;
+  padding-bottom: 3em;
 }
-.menu .menu__header {
-  position: relative;
+@media (min-width: 1320px) {
+  .menu {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 1320px) {
+  .menu .menu__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 .menu .menu__header h2 {
   margin: 0;
@@ -347,6 +359,11 @@ footer ul i {
   stroke-width: 0;
   cursor: pointer;
 }
+@media (min-width: 1320px) {
+  .menu .menu__header .menu__header--icon {
+    right: 400px;
+  }
+}
 
 .menus__cards {
   padding-bottom: 1em;
@@ -362,7 +379,12 @@ footer ul i {
   -webkit-text-decoration: underline 2px #99E2D0;
           text-decoration: underline 2px #99E2D0;
   padding-top: 1em;
-  align-self: flex-start;
+  padding-right: 300px;
+}
+@media (min-width: 1320px) {
+  .menus__cards .menus__cards--title {
+    padding-right: 600px;
+  }
 }
 .menus__cards .menus__background {
   background-color: white;
@@ -373,6 +395,11 @@ footer ul i {
   border-radius: 15px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+@media (min-width: 1320px) {
+  .menus__cards .menus__background {
+    width: 640px;
+  }
+}
 .menus__cards .menus__content {
   position: relative;
   display: flex;
@@ -380,6 +407,11 @@ footer ul i {
   margin: 0;
   height: 70px;
   width: 350px;
+}
+@media (min-width: 1320px) {
+  .menus__cards .menus__content {
+    width: 640px;
+  }
 }
 .menus__cards .menus__content h3 {
   font-weight: 500;

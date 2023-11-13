@@ -364,14 +364,25 @@ footer {
     width: 100%;
     margin-top: 0;
     background-color: $grey_background;
+    padding-bottom: 3em;
+    @media (min-width: 1320px) {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .menu__header {
-        position: relative;
+        @media (min-width: 1320px) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
         h2 {
             margin: 0;
             padding-top: 1em;
             padding-left: 1em;
             font-family: $title_font;
             font-weight: 400;
+
         }
         .menu__header--icon {
             @include like-button;
@@ -380,6 +391,9 @@ footer {
             top: 2em;
             margin: 0;
             padding: 0;
+            @media (min-width: 1320px) {
+                right: 400px;
+            }
         }
     }
 
@@ -400,7 +414,10 @@ footer {
         padding-left: 0.5em;
         text-decoration: underline 2px $turquoise;
         padding-top: 1em;
-        align-self: flex-start;
+        padding-right: 300px;
+        @media (min-width: 1320px) {
+            padding-right: 600px;
+        }
     }
     .menus__background {
         background-color: white;
@@ -410,6 +427,9 @@ footer {
         margin: 1em;
         border-radius: 15px;
         box-shadow: $shadow;
+        @media (min-width: 1320px) {
+            width: 640px;
+        }
     }
     .menus__content {
         position: relative;
@@ -418,6 +438,9 @@ footer {
         margin: 0;
         height: 70px;
         width: 350px;
+        @media (min-width: 1320px) {
+            width: 640px;
+        }
         h3 {
             font-weight: 500;
             font-family: $texte_font;
