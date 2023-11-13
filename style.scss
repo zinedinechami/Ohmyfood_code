@@ -291,6 +291,10 @@ nav {
 .restaurants__remove_decoration {
     color: black;
     text-decoration: none;
+    width: 600px;
+    @media (max-width: 1300px) {
+        width: 340px;
+    }
 }
 
 // footer
