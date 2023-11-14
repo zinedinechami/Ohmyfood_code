@@ -47,11 +47,11 @@ $shadow_2: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px
 @mixin like-button {
         fill: transparent;
         stroke: black;
-        stroke-width: 2%;
+        stroke-width: 2.2%;
         width: 50px;
         padding: 0;
         overflow: visible;
-        transition: all 0.8s;
+        transition: all 2s;
         &:hover {
             fill: url(#gradient-heart);
             stroke-width: 0;
@@ -112,7 +112,9 @@ nav {
     width: 100%;
     background-color: $grey_background;
     height: 16em;
-    min-height: 14em;
+    @media (min-width: 1320px) {
+        height: 12em;
+    }
     .reservation__content {
         text-align: center;
         padding-top: 2em ;
@@ -335,7 +337,7 @@ footer {
 // menu header
 .header--return {
     position: absolute;
-    top: 1em;
+    top: 1.5em;
     left: 1em;
     color: black;
     width: 20px;
@@ -349,7 +351,7 @@ footer {
     height: 390px;
     img {
         width: 100%;
-        height: 410px;
+        height: 420px;
         object-fit: cover;
         margin: 0;
     }
@@ -358,8 +360,8 @@ footer {
 // plats section
 
 .menu {
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
     position: relative;
     width: 100%;
     margin-top: 0;
@@ -403,7 +405,6 @@ footer {
 
 
 .menus__cards {
-    padding-bottom: 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -424,7 +425,7 @@ footer {
         width: 350px;
         height: 70px;
         padding-left: 1em;
-        margin: 1em;
+        margin: 0.5em;
         border-radius: 15px;
         box-shadow: $shadow;
         @media (min-width: 1320px) {
