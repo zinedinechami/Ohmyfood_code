@@ -433,6 +433,15 @@ footer ul i {
     text-overflow: ellipsis;
   }
 }
+@media (max-width: 1320px) {
+  .menus__cards .menus__content:hover h3 {
+    width: 280px;
+    height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
 .menus__cards .menus__content h3 {
   font-weight: 500;
   font-family: "Roboto", sans-serif;

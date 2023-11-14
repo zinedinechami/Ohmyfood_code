@@ -460,6 +460,17 @@ footer {
             text-overflow: ellipsis;
             }
         }
+        &:hover h3{
+            @media (max-width: 1320px) {
+                width: 280px;
+                height: 20px;
+                overflow: hidden;
+                white-space: nowrap; 
+                text-overflow: ellipsis;
+                }
+
+        }
+
         h3 {
             font-weight: 500;
             font-family: $texte_font;
