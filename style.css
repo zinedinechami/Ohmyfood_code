@@ -442,7 +442,7 @@ footer ul i {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: #353535;
-  transition: 2s;
+  transition: 1s;
 }
 .menus__cards .menus__content .menus__animation {
   position: absolute;
@@ -452,7 +452,7 @@ footer ul i {
   height: 70px;
   width: 70px;
   background-color: #99E2D0;
-  transition: 2s;
+  transition: 1s;
 }
 .menus__cards .menus__content .menus__animation i {
   color: white;
