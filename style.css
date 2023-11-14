@@ -404,7 +404,10 @@ footer ul i {
   position: relative;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   margin: 0;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
   height: 70px;
   width: 350px;
 }
@@ -412,6 +415,12 @@ footer ul i {
   .menus__cards .menus__content {
     width: 640px;
   }
+}
+.menus__cards .menus__content:hover .menus__animation {
+  right: 0;
+}
+.menus__cards .menus__content:hover .menus__content--price {
+  right: 5em;
 }
 .menus__cards .menus__content h3 {
   font-weight: 500;
@@ -433,15 +442,17 @@ footer ul i {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: #353535;
+  transition: 2s;
 }
 .menus__cards .menus__content .menus__animation {
   position: absolute;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  right: 0em;
+  right: -70px;
   height: 70px;
   width: 70px;
   background-color: #99E2D0;
+  transition: 2s;
 }
 .menus__cards .menus__content .menus__animation i {
   color: white;
