@@ -436,11 +436,21 @@ footer {
         position: relative;
         display: flex;
         flex-direction: column;
+        overflow: hidden;
         margin: 0;
+        border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
         height: 70px;
         width: 350px;
         @media (min-width: 1320px) {
             width: 640px;
+        }
+        &:hover .menus__animation {
+            right: 0;
+
+        }
+        &:hover .menus__content--price {
+            right: 5em;
         }
         h3 {
             font-weight: 500;
@@ -462,6 +472,24 @@ footer {
             font-family: $texte_font;
             font-weight: 500;
             color: #353535;
+            transition: 1s;
+        }
+        .menus__animation {
+            position: absolute;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            right: -70px;
+            height: 70px;
+            width: 70px;
+            background-color: $turquoise;
+            transition: 1s;
+            i {
+                color: white;
+                margin-left: 25px;
+                margin-top: 25px;
+                font-size: large;
+            }
+
         }
     }
     .menu__btn {
