@@ -434,6 +434,21 @@ footer ul i {
   font-weight: 500;
   color: #353535;
 }
+.menus__cards .menus__content .menus__animation {
+  position: absolute;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  right: 0em;
+  height: 70px;
+  width: 70px;
+  background-color: #99E2D0;
+}
+.menus__cards .menus__content .menus__animation i {
+  color: white;
+  margin-left: 25px;
+  margin-top: 25px;
+  font-size: large;
+}
 .menus__cards .menu__btn {
   border-radius: 25px;
   width: 200px;

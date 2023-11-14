@@ -462,6 +462,22 @@ footer {
             font-weight: 500;
             color: #353535;
         }
+        .menus__animation {
+            position: absolute;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            right: 0em;
+            height: 70px;
+            width: 70px;
+            background-color: $turquoise;
+            i {
+                color: white;
+                margin-left: 25px;
+                margin-top: 25px;
+                font-size: large;
+            }
+
+        }
     }
     .menu__btn {
         @include purple_button;
