@@ -425,6 +425,14 @@ footer ul i {
 .menus__cards .menus__content:hover .menus__content--price {
   right: 5em;
 }
+@media (max-width: 1320px) {
+  .menus__cards .menus__content:hover .menus__content--texte {
+    width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
 .menus__cards .menus__content h3 {
   font-weight: 500;
   font-family: "Roboto", sans-serif;
@@ -432,16 +440,17 @@ footer ul i {
   height: 1em;
   margin-bottom: 0.5em;
 }
-.menus__cards .menus__content p {
+.menus__cards .menus__content .menus__content--texte {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   margin-top: 0;
   font-size: medium;
+  width: 310px;
 }
 .menus__cards .menus__content .menus__content--price {
   position: absolute;
   right: 0.8em;
-  top: 2.5em;
+  top: 1.5em;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: #353535;

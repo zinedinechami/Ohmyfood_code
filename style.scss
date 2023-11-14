@@ -439,7 +439,7 @@ footer {
         overflow: hidden;
         margin: 0;
         border-top-right-radius: 15px;
-            border-bottom-right-radius: 15px;
+        border-bottom-right-radius: 15px;
         height: 70px;
         width: 350px;
         @media (min-width: 1320px) {
@@ -452,6 +452,14 @@ footer {
         &:hover .menus__content--price {
             right: 5em;
         }
+        &:hover .menus__content--texte {
+            @media (max-width: 1320px) {
+            width: 200px;
+            overflow: hidden;
+            white-space: nowrap; 
+            text-overflow: ellipsis;
+            }
+        }
         h3 {
             font-weight: 500;
             font-family: $texte_font;
@@ -459,16 +467,17 @@ footer {
             height: 1em;
             margin-bottom: 0.5em;
         }
-        p {
+        .menus__content--texte {
             font-family: $texte_font;
             font-weight: 300;
             margin-top: 0;
             font-size: medium;
+            width: 310px;
         }
         .menus__content--price {
             position: absolute;
             right: 0.8em;
-            top: 2.5em;
+            top: 1.5em;
             font-family: $texte_font;
             font-weight: 500;
             color: #353535;
