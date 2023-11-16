@@ -211,7 +211,6 @@ nav {
 
 .restaurants {
     width: 100%;
-    padding-left: 1em;
     background-color: $grey_background;
     padding-bottom: 2em;
     .restaurants__cards {
@@ -223,6 +222,7 @@ nav {
     h2 {
         font-family: $texte_font;
         padding-top: 2em;
+        padding-left: 1em;
         @media (min-width: 1320px) {
             padding-left: 4em;
             padding-bottom: 1em;
@@ -449,6 +449,7 @@ footer {
         }
         &:hover .menus__animation {
             right: 0;
+            cursor: pointer;
 
         }
         &:hover .menus__content--price {
@@ -460,6 +461,7 @@ footer {
             overflow: hidden;
             white-space: nowrap; 
             text-overflow: ellipsis;
+            transition: 0.8s;
             }
         }
 
