@@ -1,6 +1,6 @@
 #gradient-heart {
-  --color-stop-1: #a770ef;
-  --color-stop-2: #cf8bf3;
+  --color-stop-1: #9356DC;
+  --color-stop-2: #FF79DA;
 }
 
 body {
@@ -45,7 +45,7 @@ nav i {
 }
 @media (min-width: 1320px) {
   .reservation {
-    height: 12em;
+    height: 13em;
   }
 }
 .reservation .reservation__content {
@@ -63,22 +63,23 @@ nav i {
   padding-right: 1em;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+  padding-bottom: 1em;
 }
 .reservation .reservation__btn {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 1em;
   border-radius: 25px;
-  width: 200px;
+  width: 220px;
   height: 50px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   outline: 0;
   border: 0;
-  background-image: linear-gradient(#FF79DA 10%, #9356DC 100%);
+  background-image: linear-gradient(to bottom right, #FF79DA 2%, #9356DC 100%);
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  font-size: 16px;
   transition-delay: 150ms;
   transition-duration: 1s;
 }
@@ -91,11 +92,15 @@ nav i {
 .fonctionnement {
   width: 100%;
   padding-top: 2em;
+  padding-bottom: 1em;
 }
 .fonctionnement .fonctionnement__cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+.fonctionnement .fonctionnement__cards:hover i {
+  color: #9356DC;
 }
 .fonctionnement h1 {
   font-family: "Roboto", sans-serif;
@@ -134,10 +139,6 @@ nav i {
   padding-right: 1em;
   color: grey;
   transition: 0.3s ease-in-out;
-}
-.fonctionnement .fonctionnement__content i:hover {
-  color: #9356DC;
-  cursor: pointer;
 }
 .fonctionnement .fonctionnement__content .fonctionnement__content--number {
   position: relative;
@@ -270,6 +271,7 @@ footer {
 footer .footer__title {
   font-family: "Shrikhand", serif;
   color: white;
+  padding-right: 3em;
 }
 footer ul {
   list-style: none;
@@ -278,6 +280,7 @@ footer ul {
 }
 footer ul li {
   padding-top: 1em;
+  padding-left: 2em;
 }
 footer ul i {
   color: white;
@@ -288,7 +291,6 @@ footer ul i {
     padding-top: 3em;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-evenly;
     margin: 0;
   }
 }
@@ -480,15 +482,16 @@ footer ul i {
 }
 .menus__cards .menu__btn {
   border-radius: 25px;
-  width: 200px;
+  width: 220px;
   height: 50px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   outline: 0;
   border: 0;
-  background-image: linear-gradient(#FF79DA 10%, #9356DC 100%);
+  background-image: linear-gradient(to bottom right, #FF79DA 2%, #9356DC 100%);
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  font-size: 16px;
   transition-delay: 150ms;
   transition-duration: 1s;
   display: block;

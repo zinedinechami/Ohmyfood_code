@@ -26,15 +26,16 @@ $shadow_2: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px
 
 @mixin purple_button {
     border-radius: 25px;
-    width: 200px;
+    width: 220px;
     height: 50px;
     box-shadow: $shadow_2;
     outline: 0;
     border: 0;
-    background-image: linear-gradient($pink 10%, $purple 100%);
+    background-image: linear-gradient(to bottom right, $pink 2%, $purple 100%);
     color: white;
     font-family: $texte_font;
     font-weight: 400;
+    font-size: 16px;
     transition-delay: 150ms;
     transition-duration: 1s;
     &:hover {
@@ -60,8 +61,8 @@ $shadow_2: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px
 }
 
 #gradient-heart {
-    --color-stop-1: #a770ef;
-    --color-stop-2: #cf8bf3;
+    --color-stop-1: #9356DC;
+    --color-stop-2: #FF79DA;
   }
 
 
@@ -113,7 +114,7 @@ nav {
     background-color: $grey_background;
     height: 16em;
     @media (min-width: 1320px) {
-        height: 12em;
+        height: 13em;
     }
     .reservation__content {
         text-align: center;
@@ -129,13 +130,13 @@ nav {
             padding-right: 1em;
             font-family: $texte_font;
             font-weight: 300;
+            padding-bottom: 1em;
         }
     }
         .reservation__btn {
             display: block;
             margin-left: auto;
             margin-right: auto;
-            padding: 1em;
             @include purple_button;
         }
 }
@@ -145,10 +146,14 @@ nav {
 .fonctionnement {
     width: 100%;
     padding-top: 2em;
+    padding-bottom: 1em;
     .fonctionnement__cards  {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        &:hover i {
+            color: $purple;
+        }
     }
     h1 {
         font-family: $texte_font;
@@ -185,11 +190,6 @@ nav {
             padding-right: 1em;
             color: grey;
             transition: 0.3s ease-in-out;
-            &:hover {
-                color: $purple;
-                cursor: pointer;
-        }
-        
     }
     .fonctionnement__content--number {
         position: relative;
@@ -309,6 +309,7 @@ footer {
     .footer__title {
         font-family: $title_font;
         color: white;
+        padding-right: 3em;
     }
     ul{
         list-style: none;
@@ -316,6 +317,7 @@ footer {
         font-family: $texte_font;
         li{
         padding-top: 1em; 
+        padding-left: 2em;
     }
         i{
         color: white;
@@ -325,7 +327,6 @@ footer {
             padding-top: 3em;
             display: flex;
             flex-direction: row-reverse;
-            justify-content: space-evenly;
             margin: 0;
         }
     }
