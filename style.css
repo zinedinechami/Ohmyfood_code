@@ -466,9 +466,15 @@ footer ul i {
   background-color: #99E2D0;
   transition: 1s;
 }
+@media (max-width: 1320px) {
+  .menus__cards .menus__content .menus__animation {
+    width: 50px;
+    right: -50px;
+  }
+}
 .menus__cards .menus__content .menus__animation i {
   color: white;
-  margin-left: 25px;
+  margin-left: 35%;
   margin-top: 25px;
   font-size: large;
 }

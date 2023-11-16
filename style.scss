@@ -493,9 +493,13 @@ footer {
             width: 70px;
             background-color: $turquoise;
             transition: 1s;
+            @media (max-width: 1320px) {
+                width: 50px;
+                right: -50px;
+            }
             i {
                 color: white;
-                margin-left: 25px;
+                margin-left: 35%;
                 margin-top: 25px;
                 font-size: large;
             }
