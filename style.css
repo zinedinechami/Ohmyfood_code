@@ -57,13 +57,14 @@ nav i {
   font-family: "Roboto", sans-serif;
   padding-left: 1em;
   padding-right: 1em;
+  padding-bottom: 0.5em;
 }
 .reservation .reservation__content p {
   padding-left: 1em;
   padding-right: 1em;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
 }
 .reservation .reservation__btn {
   display: block;
@@ -75,7 +76,7 @@ nav i {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   outline: 0;
   border: 0;
-  background-image: linear-gradient(to bottom right, #FF79DA 2%, #9356DC 100%);
+  background-image: linear-gradient(to bottom right, #FF79DA 5%, #9356DC 100%);
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -487,7 +488,7 @@ footer ul i {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   outline: 0;
   border: 0;
-  background-image: linear-gradient(to bottom right, #FF79DA 2%, #9356DC 100%);
+  background-image: linear-gradient(to bottom right, #FF79DA 5%, #9356DC 100%);
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 400;

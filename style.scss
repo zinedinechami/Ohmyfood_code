@@ -31,7 +31,7 @@ $shadow_2: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px
     box-shadow: $shadow_2;
     outline: 0;
     border: 0;
-    background-image: linear-gradient(to bottom right, $pink 2%, $purple 100%);
+    background-image: linear-gradient(to bottom right, $pink 5%, $purple 100%);
     color: white;
     font-family: $texte_font;
     font-weight: 400;
@@ -124,13 +124,14 @@ nav {
             font-family: $texte_font;
             padding-left: 1em;
             padding-right: 1em;
+            padding-bottom: 0.5em;
         }
         p {
             padding-left: 1em;
             padding-right: 1em;
             font-family: $texte_font;
             font-weight: 300;
-            padding-bottom: 1em;
+            padding-bottom: 0.5em;
         }
     }
         .reservation__btn {
