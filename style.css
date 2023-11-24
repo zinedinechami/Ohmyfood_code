@@ -48,25 +48,25 @@ nav i {
     height: 13em;
   }
 }
-.reservation .reservation__content {
+.reservation__content {
   text-align: center;
   padding-top: 2em;
 }
-.reservation .reservation__content h2 {
+.reservation__content h2 {
   margin: 0;
   font-family: "Roboto", sans-serif;
   padding-left: 1em;
   padding-right: 1em;
   padding-bottom: 0.5em;
 }
-.reservation .reservation__content p {
+.reservation__content p {
   padding-left: 1em;
   padding-right: 1em;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   padding-bottom: 0.5em;
 }
-.reservation .reservation__btn {
+.reservation__btn {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -84,7 +84,7 @@ nav i {
   transition-delay: 150ms;
   transition-duration: 1s;
 }
-.reservation .reservation__btn:hover {
+.reservation__btn:hover {
   opacity: 65%;
   box-shadow: none;
   cursor: pointer;
@@ -95,12 +95,12 @@ nav i {
   padding-top: 2em;
   padding-bottom: 1em;
 }
-.fonctionnement .fonctionnement__cards {
+.fonctionnement__cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.fonctionnement .fonctionnement__cards:hover i {
+.fonctionnement__cards:hover i {
   color: #9356DC;
 }
 .fonctionnement h1 {
@@ -113,7 +113,7 @@ nav i {
     padding-left: 4em;
   }
 }
-.fonctionnement .fonctionnment__background {
+.fonctionnement__background {
   background-color: #f6f6f6;
   width: 335px;
   min-width: 300px;
@@ -122,13 +122,13 @@ nav i {
   border-radius: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.fonctionnement .fonctionnement__content {
+.fonctionnement__content {
   display: flex;
   align-items: center;
   height: 100%;
   justify-content: space-between;
 }
-.fonctionnement .fonctionnement__content p {
+.fonctionnement__content p {
   text-align: left;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -136,12 +136,12 @@ nav i {
   margin: 0;
   width: 75%;
 }
-.fonctionnement .fonctionnement__content i {
+.fonctionnement__content i {
   padding-right: 1em;
   color: grey;
   transition: 0.3s ease-in-out;
 }
-.fonctionnement .fonctionnement__content .fonctionnement__content--number {
+.fonctionnement__content .fonctionnement__content--number {
   position: relative;
   background-color: #9356DC;
   width: 1.5em;
@@ -159,7 +159,7 @@ nav i {
   background-color: #f6f6f6;
   padding-bottom: 2em;
 }
-.restaurants .restaurants__cards {
+.restaurants__cards {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -176,7 +176,7 @@ nav i {
     padding-bottom: 1em;
   }
 }
-.restaurants .restaurants__background {
+.restaurants__background {
   width: 600px;
   height: 290px;
   background-color: white;
@@ -186,11 +186,11 @@ nav i {
   margin-right: 2em;
 }
 @media (max-width: 1300px) {
-  .restaurants .restaurants__background {
+  .restaurants__background {
     width: 340px;
   }
 }
-.restaurants .restaurants__background img {
+.restaurants__background img {
   width: 100%;
   height: 200px;
   -o-object-fit: cover;
@@ -198,26 +198,26 @@ nav i {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-.restaurants .restaurants__background .restaurants__content {
+.restaurants__background .restaurants__content {
   padding-left: 1em;
 }
-.restaurants .restaurants__background .restaurants__content h3 {
+.restaurants__background .restaurants__content h3 {
   font-family: "Roboto", sans-serif;
   margin-bottom: 0;
   width: 50%;
   text-decoration: none;
   color: black;
 }
-.restaurants .restaurants__background .restaurants__content p {
+.restaurants__background .restaurants__content p {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   margin-top: 0.5em;
   color: black;
 }
-.restaurants .restaurants__cards--nouveau {
+.restaurants__cards--nouveau {
   position: relative;
 }
-.restaurants .restaurants__cards--nouveau .restaurants__cards--nouveau_box {
+.restaurants__cards--nouveau .restaurants__cards--nouveau_box {
   top: 1em;
   right: 1em;
   width: 80px;
@@ -233,7 +233,7 @@ nav i {
   border-radius: 2px;
   font-weight: 500;
 }
-.restaurants .restaurants__content--icon {
+.restaurants__content--icon {
   fill: transparent;
   stroke: black;
   stroke-width: 2.2%;
@@ -243,12 +243,12 @@ nav i {
   transition: all 2s;
   float: right;
 }
-.restaurants .restaurants__content--icon:hover {
+.restaurants__content--icon:hover {
   fill: url(#gradient-heart);
   stroke-width: 0;
   cursor: pointer;
 }
-.restaurants .restaurants__content--icon .heart-main {
+.restaurants__content--icon .heart-main {
   width: 19px;
 }
 
@@ -334,20 +334,20 @@ footer ul i {
   }
 }
 @media (min-width: 1320px) {
-  .menu .menu__header {
+  .menu__header {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 }
-.menu .menu__header h2 {
+.menu__header h2 {
   margin: 0;
   padding-top: 1em;
   padding-left: 1em;
   font-family: "Shrikhand", serif;
   font-weight: 400;
 }
-.menu .menu__header .menu__header--icon {
+.menu__header--icon {
   fill: transparent;
   stroke: black;
   stroke-width: 2.2%;
@@ -361,13 +361,13 @@ footer ul i {
   margin: 0;
   padding: 0;
 }
-.menu .menu__header .menu__header--icon:hover {
+.menu__header--icon:hover {
   fill: url(#gradient-heart);
   stroke-width: 0;
   cursor: pointer;
 }
 @media (min-width: 1320px) {
-  .menu .menu__header .menu__header--icon {
+  .menu__header--icon {
     right: 400px;
   }
 }
@@ -378,7 +378,7 @@ footer ul i {
   justify-content: center;
   align-items: center;
 }
-.menus__cards .menus__cards--title {
+.menus__cards--title {
   font-family: "Roboto", sans-serif;
   font-weight: lighter;
   padding-left: 0.5em;
@@ -388,7 +388,7 @@ footer ul i {
   padding-right: 300px;
 }
 @media (min-width: 1320px) {
-  .menus__cards .menus__cards--title {
+  .menus__cards--title {
     padding-right: 600px;
   }
 }
@@ -430,6 +430,11 @@ footer ul i {
   right: 5em;
 }
 @media (max-width: 1320px) {
+  .menus__cards .menus__content:hover .menus__content--price {
+    right: 4em;
+  }
+}
+@media (max-width: 1320px) {
   .menus__cards .menus__content:hover .menus__content--texte {
     width: 200px;
     overflow: hidden;
@@ -445,14 +450,14 @@ footer ul i {
   height: 1em;
   margin-bottom: 0.5em;
 }
-.menus__cards .menus__content .menus__content--texte {
+.menus__cards .menus__content--texte {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   margin-top: 0;
   font-size: medium;
   width: 310px;
 }
-.menus__cards .menus__content .menus__content--price {
+.menus__cards .menus__content--price {
   position: absolute;
   right: 0.8em;
   top: 1.5em;

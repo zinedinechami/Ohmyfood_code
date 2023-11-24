@@ -116,7 +116,7 @@ nav {
     @media (min-width: 1320px) {
         height: 13em;
     }
-    .reservation__content {
+    &__content {
         text-align: center;
         padding-top: 2em ;
         h2 {
@@ -134,7 +134,7 @@ nav {
             padding-bottom: 0.5em;
         }
     }
-        .reservation__btn {
+        &__btn {
             display: block;
             margin-left: auto;
             margin-right: auto;
@@ -148,7 +148,7 @@ nav {
     width: 100%;
     padding-top: 2em;
     padding-bottom: 1em;
-    .fonctionnement__cards  {
+    &__cards{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -165,7 +165,7 @@ nav {
             padding-left: 4em;
         }
     }
-    .fonctionnment__background {
+    &__background {
         background-color: $grey_background;
         width: 335px;
         min-width: 300px;
@@ -174,7 +174,7 @@ nav {
         border-radius: 20px;
         box-shadow: $shadow;
     }
-    .fonctionnement__content {
+    &__content {
         display: flex;
         align-items: center;
         height: 100%;
@@ -213,7 +213,7 @@ nav {
     width: 100%;
     background-color: $grey_background;
     padding-bottom: 2em;
-    .restaurants__cards {
+    &__cards {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -228,7 +228,7 @@ nav {
             padding-bottom: 1em;
         }
     }
-    .restaurants__background{
+    &__background{
         width: 600px;
         height: 290px;
         background-color: white;
@@ -263,7 +263,7 @@ nav {
                 }
             }
     }
-    .restaurants__cards--nouveau{
+    &__cards--nouveau{
         position: relative;
         .restaurants__cards--nouveau_box{
         top: 1em;
@@ -282,7 +282,7 @@ nav {
         font-weight: 500;
         }
     }
-    .restaurants__content--icon {
+    &__content--icon {
         @include like-button;
         float: right;
         .heart-main {
@@ -359,7 +359,7 @@ footer {
     }
 }
 
-// plats section
+// menu cards
 
 .menu {
     border-top-right-radius: 25px;
@@ -374,7 +374,7 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
-    .menu__header {
+    &__header {
         @media (min-width: 1320px) {
             display: flex;
             align-items: center;
@@ -386,9 +386,8 @@ footer {
             padding-left: 1em;
             font-family: $title_font;
             font-weight: 400;
-
         }
-        .menu__header--icon {
+        &--icon {
             @include like-button;
             position: absolute;
             right: 2em;
@@ -400,18 +399,14 @@ footer {
             }
         }
     }
-
 }
-
-
-
 
 .menus__cards {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    .menus__cards--title {
+    &--title {
         font-family: $texte_font;
         font-weight: lighter;
         padding-left: 0.5em;
@@ -450,10 +445,12 @@ footer {
         &:hover .menus__animation {
             right: 0;
             cursor: pointer;
-
         }
         &:hover .menus__content--price {
             right: 5em;
+            @media (max-width: 1320px) {
+                right: 4em;
+                }
         }
         &:hover .menus__content--texte {
             @media (max-width: 1320px) {
@@ -464,7 +461,6 @@ footer {
             transition: 0.8s;
             }
         }
-
         h3 {
             font-weight: 500;
             font-family: $texte_font;
@@ -472,14 +468,14 @@ footer {
             height: 1em;
             margin-bottom: 0.5em;
         }
-        .menus__content--texte {
+        &--texte {
             font-family: $texte_font;
             font-weight: 300;
             margin-top: 0;
             font-size: medium;
             width: 310px;
         }
-        .menus__content--price {
+        &--price {
             position: absolute;
             right: 0.8em;
             top: 1.5em;
@@ -507,7 +503,6 @@ footer {
                 margin-top: 25px;
                 font-size: large;
             }
-
         }
     }
     .menu__btn {
@@ -517,6 +512,5 @@ footer {
         margin-right: auto;
         margin-top: 2em;
     }
-
 }
 
