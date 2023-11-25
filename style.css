@@ -95,13 +95,10 @@ nav i {
   padding-top: 2em;
   padding-bottom: 1em;
 }
-.fonctionnement__cards {
+.fonctionnement .fonctionnement__cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-.fonctionnement__cards:hover i {
-  color: #9356DC;
 }
 .fonctionnement h1 {
   font-family: "Roboto", sans-serif;
@@ -121,6 +118,9 @@ nav i {
   margin: 1em;
   border-radius: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.fonctionnement__background:hover i {
+  color: #9356DC;
 }
 .fonctionnement__content {
   display: flex;

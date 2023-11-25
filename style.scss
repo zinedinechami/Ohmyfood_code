@@ -148,19 +148,15 @@ nav {
     width: 100%;
     padding-top: 2em;
     padding-bottom: 1em;
-    &__cards{
+    .fonctionnement__cards{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        &:hover i {
-            color: $purple;
-        }
     }
     h1 {
         font-family: $texte_font;
         padding-left: 1em;
         padding-bottom: 0.5em;
-
         @media (min-width: 1320px) {
             padding-left: 4em;
         }
@@ -173,6 +169,9 @@ nav {
         margin: 1em;
         border-radius: 20px;
         box-shadow: $shadow;
+        &:hover i {
+            color: $purple;
+        }
     }
     &__content {
         display: flex;
@@ -449,8 +448,8 @@ footer {
         &:hover .menus__content--price {
             right: 5em;
             @media (max-width: 1320px) {
-                right: 4em;
-                }
+            right: 4em;
+            }
         }
         &:hover .menus__content--texte {
             @media (max-width: 1320px) {
