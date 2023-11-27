@@ -511,5 +511,27 @@ footer {
         margin-right: auto;
         margin-top: 2em;
     }
+// menu section fade in animation
+&--entrees{
+    animation: entree_animation 4s;
+    @keyframes entree_animation {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+    }
+}
+&--plats{
+    animation: plats_animation 6s;
+    @keyframes plats_animation {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+    }
+}
+&--desserts{
+    animation: desserts_animation 8s;
+    @keyframes desserts_animation {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+    }
 }
 
+}

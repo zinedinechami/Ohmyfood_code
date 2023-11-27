@@ -511,4 +511,37 @@ footer ul i {
   opacity: 65%;
   box-shadow: none;
   cursor: pointer;
+}
+.menus__cards--entrees {
+  animation: entree_animation 4s;
+}
+@keyframes entree_animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.menus__cards--plats {
+  animation: plats_animation 6s;
+}
+@keyframes plats_animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.menus__cards--desserts {
+  animation: desserts_animation 8s;
+}
+@keyframes desserts_animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }/*# sourceMappingURL=style.css.map */
