@@ -408,12 +408,14 @@ footer {
     &--title {
         font-family: $texte_font;
         font-weight: lighter;
-        padding-left: 0.5em;
-        text-decoration: underline 2px $turquoise;
+        font-size: 1.2em;
         padding-top: 1em;
-        padding-right: 300px;
+        margin-right: 300px;
+        border-bottom: $turquoise 3px solid;
+        width: 50px;
+        height: 1.5em;
         @media (min-width: 1320px) {
-            padding-right: 600px;
+            margin-right: 600px;
         }
     }
     .menus__background {

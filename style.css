@@ -381,15 +381,16 @@ footer ul i {
 .menus__cards--title {
   font-family: "Roboto", sans-serif;
   font-weight: lighter;
-  padding-left: 0.5em;
-  -webkit-text-decoration: underline 2px #99E2D0;
-          text-decoration: underline 2px #99E2D0;
+  font-size: 1.2em;
   padding-top: 1em;
-  padding-right: 300px;
+  margin-right: 300px;
+  border-bottom: #99E2D0 3px solid;
+  width: 50px;
+  height: 1.5em;
 }
 @media (min-width: 1320px) {
   .menus__cards--title {
-    padding-right: 600px;
+    margin-right: 600px;
   }
 }
 .menus__cards .menus__background {
