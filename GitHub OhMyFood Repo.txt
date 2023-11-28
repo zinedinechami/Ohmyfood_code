@@ -1,1 +1,3 @@
-https://github.com/zinedinechami/Ohmyfood_code
+Lien GitHub Pages: https://zinedinechami.github.io/Ohmyfood_code/
+
+Lien repo Github OhMyFood: https://github.com/zinedinechami/Ohmyfood_code

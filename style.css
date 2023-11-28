@@ -7,6 +7,56 @@ body {
   margin: 0;
 }
 
+.body_loader {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  animation: loader_page 8s forwards;
+}
+.body_loader .loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 47%;
+}
+@keyframes loader_page {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.loader {
+  width: 75px;
+  height: 75px;
+  border: 15px solid;
+  border-top-color: #9356DC;
+  border-radius: 50%;
+  animation: loading 6s forwards;
+}
+@keyframes loading {
+  0% {
+    opacity: 1;
+    transform: rotate(0turn);
+  }
+  50% {
+    opacity: 0.5;
+    transform: rotate(1turn);
+  }
+  100% {
+    display: none;
+    opacity: 0;
+    transform: rotate(0turn);
+  }
+}
+
 header {
   width: 100%;
   height: 4em;
