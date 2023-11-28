@@ -19,7 +19,12 @@ body {
   align-items: center;
   position: fixed;
   top: 50%;
-  left: 47%;
+  left: 40%;
+}
+@media (min-width: 1320px) {
+  .body_loader .loader {
+    left: 47%;
+  }
 }
 @keyframes loader_page {
   0% {
@@ -47,7 +52,7 @@ body {
     transform: rotate(0turn);
   }
   50% {
-    opacity: 0.5;
+    opacity: 0.8;
     transform: rotate(1turn);
   }
   100% {
@@ -286,11 +291,11 @@ nav i {
 .restaurants__content--icon {
   fill: transparent;
   stroke: black;
-  stroke-width: 2.2%;
+  stroke-width: 2.3%;
   width: 50px;
   padding: 0;
   overflow: visible;
-  transition: all 2s;
+  transition: all ease-in-out 2.5s;
   float: right;
 }
 .restaurants__content--icon:hover {
@@ -400,11 +405,11 @@ footer ul i {
 .menu__header--icon {
   fill: transparent;
   stroke: black;
-  stroke-width: 2.2%;
+  stroke-width: 2.3%;
   width: 50px;
   padding: 0;
   overflow: visible;
-  transition: all 2s;
+  transition: all ease-in-out 2.5s;
   position: absolute;
   right: 2em;
   top: 2em;

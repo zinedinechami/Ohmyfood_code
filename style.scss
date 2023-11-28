@@ -48,11 +48,11 @@ $shadow_2: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px
 @mixin like-button {
         fill: transparent;
         stroke: black;
-        stroke-width: 2.2%;
+        stroke-width: 2.3%;
         width: 50px;
         padding: 0;
         overflow: visible;
-        transition: all 2s;
+        transition: all ease-in-out 2.5s;
         &:hover {
             fill: url(#gradient-heart);
             stroke-width: 0;
@@ -82,7 +82,10 @@ body {
         align-items: center;
         position: fixed;
         top: 50%;
-        left: 47%;
+        left: 40%;
+        @media (min-width: 1320px) {
+            left: 47%;
+        }
     }
     @keyframes loader_page {
         0% {opacity: 0;}
@@ -104,7 +107,7 @@ body {
             transform: rotate(0turn);
           }
           50%{
-            opacity: 0.5;
+            opacity: 0.8;
             transform: rotate(1turn);
           }
           100%{
