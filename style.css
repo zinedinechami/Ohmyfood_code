@@ -496,7 +496,7 @@ footer ul i {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    transition: 0.8s;
+    margin-bottom: 10px;
   }
 }
 .menus__cards .menus__content h3 {
