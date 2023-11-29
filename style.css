@@ -465,9 +465,9 @@ footer a {
     stroke-width: 0;
   }
 }
-@media (min-width: 1450px) {
+@media (min-width: 1400px) {
   .menu__header--icon {
-    right: 400px;
+    right: 380px;
   }
 }
 
