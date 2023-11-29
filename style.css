@@ -380,6 +380,7 @@ footer ul i {
 }
 
 .header__img {
+  width: 100%;
   height: 390px;
 }
 .header__img img {
@@ -428,7 +429,7 @@ footer ul i {
   padding: 0;
   overflow: visible;
   position: absolute;
-  right: 2em;
+  right: 0.5em;
   top: 2em;
   margin: 0;
   padding: 0;
@@ -453,7 +454,7 @@ footer ul i {
     stroke-width: 0;
   }
 }
-@media (min-width: 1320px) {
+@media (min-width: 1450px) {
   .menu__header--icon {
     right: 400px;
   }
@@ -482,14 +483,14 @@ footer ul i {
 }
 .menus__cards .menus__background {
   background-color: white;
-  width: 350px;
+  width: 300px;
   height: 70px;
   padding-left: 1em;
   margin: 0.5em;
   border-radius: 15px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-@media (min-width: 1320px) {
+@media (min-width: 700px) {
   .menus__cards .menus__background {
     width: 640px;
   }
@@ -503,9 +504,9 @@ footer ul i {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   height: 70px;
-  width: 350px;
+  width: 300px;
 }
-@media (min-width: 1320px) {
+@media (min-width: 700px) {
   .menus__cards .menus__content {
     width: 640px;
   }
@@ -544,6 +545,15 @@ footer ul i {
   margin-top: 0;
   font-size: medium;
   width: 310px;
+}
+@media (max-width: 700px) {
+  .menus__cards .menus__content--texte {
+    width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+  }
 }
 .menus__cards .menus__content--price {
   position: absolute;
