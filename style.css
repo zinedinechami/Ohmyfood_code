@@ -295,13 +295,27 @@ nav i {
   width: 50px;
   padding: 0;
   overflow: visible;
-  transition: all ease-in-out 2.5s;
   float: right;
 }
 .restaurants__content--icon:hover {
-  fill: url(#gradient-heart);
-  stroke-width: 0;
   cursor: pointer;
+  animation: like-animation 2s forwards;
+}
+@keyframes like-animation {
+  50% {
+    fill: url(#gradient-heart);
+    stroke-width: 2.3%;
+    opacity: 0.1;
+  }
+  80% {
+    fill: url(#gradient-heart);
+    stroke-width: 0;
+    opacity: 0.4;
+  }
+  100% {
+    fill: url(#gradient-heart);
+    stroke-width: 0;
+  }
 }
 .restaurants__content--icon .heart-main {
   width: 19px;
@@ -409,7 +423,6 @@ footer ul i {
   width: 50px;
   padding: 0;
   overflow: visible;
-  transition: all ease-in-out 2.5s;
   position: absolute;
   right: 2em;
   top: 2em;
@@ -417,9 +430,24 @@ footer ul i {
   padding: 0;
 }
 .menu__header--icon:hover {
-  fill: url(#gradient-heart);
-  stroke-width: 0;
   cursor: pointer;
+  animation: like-animation 2s forwards;
+}
+@keyframes like-animation {
+  50% {
+    fill: url(#gradient-heart);
+    stroke-width: 2.3%;
+    opacity: 0.1;
+  }
+  80% {
+    fill: url(#gradient-heart);
+    stroke-width: 0;
+    opacity: 0.4;
+  }
+  100% {
+    fill: url(#gradient-heart);
+    stroke-width: 0;
+  }
 }
 @media (min-width: 1320px) {
   .menu__header--icon {

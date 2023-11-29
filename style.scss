@@ -52,11 +52,14 @@ $shadow_2: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px
         width: 50px;
         padding: 0;
         overflow: visible;
-        transition: all ease-in-out 2.5s;
         &:hover {
-            fill: url(#gradient-heart);
-            stroke-width: 0;
             cursor: pointer;
+            animation: like-animation 2s forwards;
+                @keyframes like-animation {
+                50%{fill: url(#gradient-heart); stroke-width: 2.3%; opacity: 0.1; }
+                80% {fill: url(#gradient-heart); stroke-width: 0; opacity: 0.4; }
+                100% {fill: url(#gradient-heart); stroke-width: 0;}
+            }
         }
 }
 
