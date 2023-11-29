@@ -286,7 +286,7 @@ nav {
         margin-bottom: 2em;
         margin-right: 2em;
         @media (max-width: 1300px) {
-            width: 340px;
+            width: 95%;
         }
         img {
             width: 100%;
@@ -300,7 +300,7 @@ nav {
                 h3 {
                     font-family: $texte_font;
                     margin-bottom: 0;
-                    width: 50%;
+                    width: 60%;
                     text-decoration: none;
                     color: black;
                 }
@@ -512,14 +512,24 @@ footer {
             overflow: hidden;
             white-space: nowrap; 
             text-overflow: ellipsis;
-            margin-bottom: 10px;
+            margin-top: 0;
+            }
+        
+        }
+        &:hover h3 {
+            @media (max-width: 1320px) {
+            width: 220px;
+            overflow-x: hidden;
+            overflow-y: visible;
+            white-space: nowrap; 
+            text-overflow: ellipsis;
             }
         }
         h3 {
             font-weight: 500;
             font-family: $texte_font;
             margin-top: 0.5em;
-            height: 1em;
+            height: 1.2em;
             margin-bottom: 0.5em;
         }
         &--texte {

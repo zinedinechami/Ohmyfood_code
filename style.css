@@ -242,7 +242,7 @@ nav i {
 }
 @media (max-width: 1300px) {
   .restaurants__background {
-    width: 340px;
+    width: 95%;
   }
 }
 .restaurants__background img {
@@ -259,7 +259,7 @@ nav i {
 .restaurants__background .restaurants__content h3 {
   font-family: "Roboto", sans-serif;
   margin-bottom: 0;
-  width: 50%;
+  width: 60%;
   text-decoration: none;
   color: black;
 }
@@ -529,14 +529,23 @@ footer ul i {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    margin-bottom: 10px;
+    margin-top: 0;
+  }
+}
+@media (max-width: 1320px) {
+  .menus__cards .menus__content:hover h3 {
+    width: 220px;
+    overflow-x: hidden;
+    overflow-y: visible;
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
 }
 .menus__cards .menus__content h3 {
   font-weight: 500;
   font-family: "Roboto", sans-serif;
   margin-top: 0.5em;
-  height: 1em;
+  height: 1.2em;
   margin-bottom: 0.5em;
 }
 .menus__cards .menus__content--texte {
