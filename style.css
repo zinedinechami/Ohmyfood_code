@@ -39,8 +39,8 @@ body {
 }
 
 .loader {
-  width: 75px;
-  height: 75px;
+  width: 60px;
+  height: 60px;
   border: 15px solid;
   border-top-color: #9356DC;
   border-radius: 50%;
@@ -141,7 +141,7 @@ nav i {
 }
 .reservation__btn:hover {
   opacity: 65%;
-  box-shadow: none;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   cursor: pointer;
 }
 
@@ -350,7 +350,11 @@ footer ul {
 }
 footer ul li {
   padding-top: 1em;
-  padding-left: 2em;
+}
+@media (min-width: 1300px) {
+  footer ul li {
+    padding-left: 2em;
+  }
 }
 footer ul i {
   color: white;
@@ -593,7 +597,7 @@ footer ul i {
 }
 .menus__cards .menu__btn:hover {
   opacity: 65%;
-  box-shadow: none;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   cursor: pointer;
 }
 .menus__cards--entrees {
