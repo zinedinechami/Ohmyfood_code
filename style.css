@@ -243,6 +243,7 @@ nav i {
 @media (max-width: 1300px) {
   .restaurants__background {
     width: 95%;
+    margin-left: 0.5em;
   }
 }
 .restaurants__background img {
@@ -356,6 +357,9 @@ footer ul li {
     padding-left: 2em;
   }
 }
+footer ul li :hover {
+  cursor: pointer;
+}
 footer ul i {
   color: white;
   padding-right: 1em;
@@ -367,6 +371,13 @@ footer ul i {
     flex-direction: row-reverse;
     margin: 0;
   }
+}
+footer ul :hover {
+  cursor: pointer;
+}
+footer a {
+  text-decoration: none;
+  color: white;
 }
 
 .header--return {
@@ -557,7 +568,7 @@ footer ul i {
 }
 @media (max-width: 700px) {
   .menus__cards .menus__content--texte {
-    width: 200px;
+    width: 215px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
