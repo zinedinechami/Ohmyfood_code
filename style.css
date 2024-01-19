@@ -1,6 +1,6 @@
 #gradient-heart {
-  --color-stop-1: #9356DC;
-  --color-stop-2: #FF79DA;
+  --color-stop-1: #9356dc;
+  --color-stop-2: #ff79da;
 }
 
 body {
@@ -42,7 +42,7 @@ body {
   width: 60px;
   height: 60px;
   border: 15px solid;
-  border-top-color: #9356DC;
+  border-top-color: #9356dc;
   border-radius: 50%;
   animation: loading 6s forwards;
 }
@@ -66,7 +66,8 @@ header {
   width: 100%;
   height: 4em;
   background-color: white;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 header .header__logo {
   padding-top: 1em;
@@ -128,10 +129,11 @@ nav i {
   border-radius: 25px;
   width: 220px;
   height: 50px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   outline: 0;
   border: 0;
-  background-image: linear-gradient(to bottom right, #FF79DA 5%, #9356DC 100%);
+  background-image: linear-gradient(to bottom right, #ff79da 5%, #9356dc 100%);
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -175,7 +177,7 @@ nav i {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .fonctionnement__background:hover i {
-  color: #9356DC;
+  color: #9356dc;
 }
 .fonctionnement__content {
   display: flex;
@@ -198,7 +200,7 @@ nav i {
 }
 .fonctionnement__content .fonctionnement__content--number {
   position: relative;
-  background-color: #9356DC;
+  background-color: #9356dc;
   width: 1.5em;
   height: 1.5em;
   padding-top: 2px;
@@ -250,7 +252,7 @@ nav i {
   width: 100%;
   height: 200px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -280,7 +282,7 @@ nav i {
   height: 25px;
   padding-top: 0.6em;
   text-align: center;
-  background-color: #99E2D0;
+  background-color: #99e2d0;
   position: absolute;
   font-family: "Roboto", sans-serif;
   color: green;
@@ -398,7 +400,7 @@ footer a {
   width: 100%;
   height: 420px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   margin: 0;
 }
 
@@ -483,7 +485,7 @@ footer a {
   font-size: 1.2em;
   padding-top: 1em;
   margin-left: 0.5em;
-  border-bottom: #99E2D0 3px solid;
+  border-bottom: #99e2d0 3px solid;
   width: 50px;
   height: 1.5em;
 }
@@ -591,7 +593,7 @@ footer a {
   right: -70px;
   height: 70px;
   width: 70px;
-  background-color: #99E2D0;
+  background-color: #99e2d0;
   transition: 1s;
 }
 @media (max-width: 1320px) {
@@ -610,10 +612,11 @@ footer a {
   border-radius: 25px;
   width: 220px;
   height: 50px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   outline: 0;
   border: 0;
-  background-image: linear-gradient(to bottom right, #FF79DA 5%, #9356DC 100%);
+  background-image: linear-gradient(to bottom right, #ff79da 5%, #9356dc 100%);
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -662,4 +665,4 @@ footer a {
   100% {
     opacity: 1;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
